@@ -1,0 +1,26 @@
+Bonjour,
+
+Dans ce document je vais parler de ce j'ai fait a la fois chez le client et le serveur d'une facon generale sans entrer dans les details.
+
+Une fois tu demarre le serveur, il va vous donner son address IP, puis il va demander le numero du port.
+
+le numero du port doit etre plus grand ou egal a 1024.
+
+ensuite on va demarrer les clients, tu dois entrer l'adresse IP du serveur puis le numero du port, si les informations entree sont fausses, un 
+
+message va demontrer les erreurs.
+
+plusieurs clients peuvent communiquer avec le serveur en meme temps.
+
+le serveur renvoie au client le message qui a deja recu sans le changer.
+
+pour fermer l'echange entre le client et le serveur, il est suffisant d'envoyer un mesage "fin" du client au serveur.
+
+j'ai ajoute des commentaires pour rendre le code plus simple.
+
+merci de votre attention.
+
+Mouhamad Nour aldin kalawoun
+
+
+
